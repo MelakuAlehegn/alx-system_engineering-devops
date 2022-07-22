@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# displays the content of the current directory
+File=school;
+if test -a "$File"; then
+    echo "school file exists"
+    [[ -f $File && ! -s $File ]] && echo "school file is empty" || echo "school file is not empty" 
+    if  test -f $File ; then
+    echo "school is a regular file";
+    fi
+else
+    echo "school file does not exist";
+fi
