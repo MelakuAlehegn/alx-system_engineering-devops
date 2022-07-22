@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that prints "Best School" 10 times
+betty="Best School";
+a=10;
+while [ $a -gt 0 ];
+do
+    echo "$betty";
+    ((a--));
+done;
