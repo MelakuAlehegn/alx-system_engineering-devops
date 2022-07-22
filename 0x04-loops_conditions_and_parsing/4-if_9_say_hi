@@ -2,9 +2,9 @@
 # Bash script that prints "Best School" 10 times
 betty="Best School";
 a=0;
-while [ $a -lt 10 ];
+while [ $a -lt 11 ];
 do
-    if [ "$a" -eq 8 ]; then
+    if [ "$a" -eq 9 ]; then
         echo "Hi"
     else
         echo "$betty";
