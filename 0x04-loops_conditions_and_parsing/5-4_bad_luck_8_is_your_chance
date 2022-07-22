@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Bash script that prints "Best School" 10 times
+betty="Best School";
+a=0;
+while [ $a -lt 10 ];
+do
+    if [ "$a" -eq 3 ]; then
+        echo "bad luck"
+    elif [ "$a" -eq 7 ]; then
+        echo "good luck"
+    else 
+        echo "$betty";
+    fi
+    ((a++));
+done;
