@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that prints 1 to 20
+# Bash script that prints 1 to 20 with bad for china
 a=1;
 while [ $a -lt 21 ];
 do
