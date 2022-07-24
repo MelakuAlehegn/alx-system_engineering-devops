@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# a bash script that prints it's pid
+ps aux | less
