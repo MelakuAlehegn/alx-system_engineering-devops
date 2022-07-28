@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#prints all ips in the device
+
+ip=$(ip address| awk '/inet/ {print $2}' | grep -v ^::1)
+echo "$ip"
