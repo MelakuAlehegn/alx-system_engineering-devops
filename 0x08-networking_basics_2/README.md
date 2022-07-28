@@ -1,4 +1,4 @@
-![img](../../../../Pictures/s7kpNYq.png)
+![img](s7kpNYq.png)
 # Requirements
 ## General
 * Allowed editors: vi, vim, emacs
