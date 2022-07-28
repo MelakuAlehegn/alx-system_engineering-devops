@@ -9,3 +9,10 @@
 * Your Bash script must pass shellcheck without any error
 * The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 * The second line of all your Bash scripts should be a comment explaining what is the
+## man or help:
+```
+ifconfig
+telnet
+nc
+cut
+```
