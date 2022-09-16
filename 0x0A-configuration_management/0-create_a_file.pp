@@ -1,5 +1,4 @@
 # Using Puppet, create a file in /tmp
-
 file { 'holberton':
   ensure  => 'present',
   content => 'I love Puppet',
