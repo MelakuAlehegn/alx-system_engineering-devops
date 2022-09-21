@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # a Bash script that installs nginx a new Ubuntu machine
-sudo apt-get update
-sudo apt-get install nginx
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
 echo "Hello World!" > /var/www/html/index.html
 service nginx restart
