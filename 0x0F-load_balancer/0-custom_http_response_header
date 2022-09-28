@@ -6,5 +6,12 @@
 sudo apt-get -y update
 sudo apt-get install -y nginx
 echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
-sudo sed -i '11i\add_header X-Served-By $HOSTNAME;' /etc/nginx/nginx.conf
+printf %s "server {
+       listen 80 default_server;
+       listen [::]:80 default_server;
+       add_header X-Served-By $HOSTNAME;
+       root /var/www/html;
+       index index.html index.htm;
+}
+" > /etc/nginx/sites-available/default
 sudo service nginx restart
