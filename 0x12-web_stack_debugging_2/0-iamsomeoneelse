@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # executes whoami
 
-echo "$1"
+sudo -u "$1" whoami
