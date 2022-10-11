@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# executes whoami
+
+echo "$1"
