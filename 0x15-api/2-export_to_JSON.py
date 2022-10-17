@@ -3,10 +3,10 @@
     a python script that use rest api for a given employee
     and exports to json
 '''
-import csv
+
+import json
 import requests
 import sys
-import json
 
 if __name__ == '__main__':
     user = requests.get('https://jsonplaceholder.typicode.com/users/{}'
