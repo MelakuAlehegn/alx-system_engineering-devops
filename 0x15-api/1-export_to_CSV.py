@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+'''
+    a python script that use rest api for a given employee
+    and exports to csv
+'''
 import csv
 import requests
 import sys
